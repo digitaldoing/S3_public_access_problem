@@ -1,7 +1,7 @@
 # AWS Public Access Problem
 
 ## The Problem
-A public e-commerce site (CloudMart) has experienced downtime when images stored in an AWS S3 static website configuration have become inaccessible due to misconfigured bucket permissions.
+A public cloud solutions site (FlameOnePage) has experienced downtime when images stored in an AWS S3 static website configuration have become inaccessible due to misconfigured bucket permissions.
 
 ## Investigation Process (things checked/verified)
 - Reproduced the Access Denied issue.
