@@ -12,6 +12,9 @@ A public cloud solutions site (FlameOnePage) has experienced downtime when image
 ## Solution
 Implemented a least-privilege S3 bucket policy allowing controlled public object access.
 
+[Video showing my implented solution here](https://youtu.be/ki520u4xcWY)
+
+
 ## Validation
 - Tested object URLs in a browser, verified public access.
 - Confirmed no unauthorized uploads possible.
