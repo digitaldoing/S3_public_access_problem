@@ -8,6 +8,8 @@ A public cloud solutions site (FlameOnePage) has experienced downtime when image
 - Reviewed S3 public access settings.
 - Compared IAM roles and bucket policies.
 
+## Problems encountered
+During testing I added a Get Object policy for an IAM user who had programmatic access to the AWS CLI. I was initially under the impression that the policy would allow access to the static website bucket via the AWS console allowing them to upload additional objects. Upon further testing, the user could only securely upload new objects into the bucket using the AWS CLI with no access permitted via the AWS console.
 
 ## Solution
 Implemented a least-privilege S3 bucket policy allowing controlled public object access.
